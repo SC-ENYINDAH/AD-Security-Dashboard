@@ -1,12 +1,8 @@
 # 🛡️ Active Directory Security & Audit Dashboard
 
-<div align="center">
+<img width="1782" height="426" alt="Screenshot 2026-09-09 184214" src="https://github.com/user-attachments/assets/69836985-6040-47f2-8603-4308540f00d8" />
 
-![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-5391FE?style=for-the-badge&logo=powershelltps://img.shields.io/badge/Windows-Server%202016+-0078D4?style=for-the-badge&s
-![LDAP](https://img.shields.io/badge/LDAP-Supported-orange?style-badge
-![PSRemoting](https://img.shields.io/badge/PSRemoting-Supported-green?badge
-![Status](https://img.shields.io/badge/ive_Development-success?style=for-the-badge
-![Licensemg.shields.io/badge/License-MIT-red?style=for-the-badge
+<div align="center">
 
 ### Enterprise Active Directory Security Monitoring, Auditing and Administration Framework
 
