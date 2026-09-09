@@ -1,4 +1,4 @@
-# 🛡️ Active Directory Security & Audit Dashboard
+# 🛡️ Active Directory Security and Audit Dashboard
 
 <img width="1782" height="426" alt="Screenshot 2026-09-09 184214" src="https://github.com/user-attachments/assets/69836985-6040-47f2-8603-4308540f00d8" />
 
@@ -278,6 +278,7 @@ Future integrations include:
 # 📂 Project Structure
 
 AD-Security-Dashboard/
+
 │
 ├── Dashboard.ps1
 │
