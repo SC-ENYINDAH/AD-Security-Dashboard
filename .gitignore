@@ -1,0 +1,14 @@
+# Logs
+Logs/
+*.log
+
+# Sensitive configuration
+dB_Config.json
+ldpa_ps_config.json
+AD_Alerts.txt
+
+# Reports
+Reports/
+
+# Credentials
+*config.json
