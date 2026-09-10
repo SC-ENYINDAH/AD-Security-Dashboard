@@ -35,6 +35,9 @@ The framework provides:
 - Extensible Plugin-Based Design
 
 ---
+<h2>Operating Systems Used </h2>
+
+- Windows Server 2022
 
 # 🎯 Project Goals
 
@@ -276,25 +279,55 @@ Future integrations include:
 
 
 # 📂 Project Structure
+/AD-Security-Dashboard  
+├── **Diagrams/**  
+│   ├── AD-Structure.png  
+│   ├── Network-Architecture.png
+│  
+├── **Documentation/**  
+│   ├── Project-Overview.md ← *(Implementation, Technologies Used, Enhancements)*  
+│   ├── Step-by-Step-Guide.md ← *(Installation & Configuration)*  
+│  
+├── **Screenshots/** ← *(Contains all images documenting each step, including: Azure VM Setup, AD Configuration, User Management, Group Policies, etc.)*  
+│  
+├── **Scripts/**  
+│   ├── AD-User-Creation.ps1 ← *(Automates user creation in AD)*  
+│   ├── Backup-Restore-AD.ps1 ← *(Handles AD backup & restoration)*  
+│   ├── Group-Policy-Setup.ps1 ← *(Applies predefined GPO settings)*  
+│  
+└── **README.md** ← *(You are here)*
+
+
+
+
+
+
+
+
 
 AD-Security-Dashboard/
-
+│
+├── **Modules/**
+│   ├── Authentication
+│   ├── Connections/
+│   ├── Auditing/
+│   ├── Administration/
+│   ├── Reporting/
+│   └── Utilities/
+│
+├── Docs/
+├── Examples/
+├── Assets/
+├── Tests/
+├── Config/
+├── .github/
 │
 ├── Dashboard.ps1
-│
-├── Modules/
-│   ├── ldap_connect.psm1
-│   ├── ps_remote_connect.psm1
-│   └── connection_setup.psm1
-│
-├── Logs/
-│
-├── Reports/
-|
 ├── README.md
-│
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── SECURITY.md
 ├── LICENSE
-│
 └── .gitignore
 
 
